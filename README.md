@@ -11,11 +11,14 @@
 - `/component/hero`
   répertoire du composant Hero. Contient pour l'instant qu'un seul fichier :
   . style.css : le css spécifique au composant Hero
+
+- `/css`
+  répertoire qui contient le css global à l'application (css commun au site et aux composants)
+
 - `index.html`  
   page principale
 
-- /css
-  répertoire qui contient le css global à l'application (css commun au site et aux composants)
+
 
 ## PRINCIPE GENERAL POUR AJOUTER UN AUTRE COMPOSANT
 
