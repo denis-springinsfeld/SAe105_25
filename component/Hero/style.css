@@ -2,7 +2,7 @@
   margin: 2rem auto;
   padding: 10rem 0;
   font-family: var(--ff-sans);
-  color: var(--clr-white);
+  color: var(--clr-light);
   text-align: center;
   background-color: var(--clr-dark);
   background-image: linear-gradient(
@@ -10,7 +10,7 @@
       rgba(19, 67, 77, 0.7) 0%,
       rgba(86, 22, 91, 0.7) 100%
     ),
-    var(--bg-hero);
+    var(--_bg-hero);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
