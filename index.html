@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./css/base.css" />
   </head>
   <body>
-    <!-- HTML du composant Hero -->
-    <section class="hero" style="--_bg-hero: url('../../assets/hero-bg.jpg')">
+    <!-- HTML du composant Hero sans variable personnelle-->
+    <section class="hero">
       <h1 class="hero__title">Mon composant Hero</h1>
       <p class="hero__desc">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
@@ -16,5 +16,42 @@
         libero itaque.
       </p>
     </section>
+    <!-- HTML du composant Hero avec variable personnelle-->
+    <section class="hero" style="--bg-hero: url('../../assets/hero-bg.jpg')">
+      <h1 class="hero__title">Mon composant Hero</h1>
+      <p class="hero__desc">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
+        voluptatem facere quia cum rerum cumque perspiciatis dolorum unde,
+        libero itaque.
+      </p>
+    </section>
+    <!-- HTML du composant Navigation sans variable personnelle-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#" class="nav__link">Accueil</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Services</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- HTML du composant Navigation avec variable personnelle-->
+    <nav class="nav" style="--bg-nav: #333; --fg-nav: #fff">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#" class="nav__link">Accueil</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Services</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>

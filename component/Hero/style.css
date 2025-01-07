@@ -1,4 +1,6 @@
 .hero {
+  /* Variable css 'privée' */
+  --_bg-hero: var(--bg-hero, url("https://picsum.photos/800/600"));
   margin: 2rem auto;
   padding: 10rem 0;
   font-family: var(--ff-sans);
