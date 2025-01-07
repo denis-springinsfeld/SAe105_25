@@ -99,3 +99,5 @@ Si vous souhaitez vérifier vos réglages, vous pouvez utiliser la commande `git
 git init
 git remote add origin https://github.com/denis-springinsfeld/sae-105.git
 ```
+
+### 5. Ajouter des fichiers à votre dépôt
